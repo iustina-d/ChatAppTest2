@@ -1,0 +1,55 @@
+.chat-room-container {
+  width: 100%;
+  height: 100%;
+}
+.contact {
+  width: 100%;
+  height: 15%;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.more {
+  padding: 25px 0px;
+}
+.more svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #fff;
+}
+.messages-section {
+  display: block;
+  margin: 0px auto;
+  background-color: rgba(83, 82, 108, 0.439);
+  width: 90%;
+  height: 80%;
+  border-radius: 10px;
+  padding: 20px 20px 50px;
+}
+.read-messages {
+  height: 100%;
+}
+@media (max-width: 700px) {
+  .more svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    color: #fff;
+  }
+  .contact-info div {
+    font-size: 10px;
+  }
+}
+@media (max-width: 510px) {
+  .contact {
+    width: 100%;
+    height: 15%;
+    padding: 10px 10px;
+  }
+  .more svg {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+  }
+}
